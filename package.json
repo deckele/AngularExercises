@@ -1,0 +1,19 @@
+{
+  "name": "AngularExercises",
+  "version": "1.0.0",
+  "description": "My Angular Exercises",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deckele/AngularExercises.git"
+  },
+  "author": "Emanuel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deckele/AngularExercises/issues"
+  },
+  "homepage": "https://github.com/deckele/AngularExercises#readme"
+}
