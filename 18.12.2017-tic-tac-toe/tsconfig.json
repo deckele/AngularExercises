@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "outDir": "./build",
+        "sourceMap": true,
+        "noImplicitAny": true,
+        "module": "commonjs",
+        "target": "es2015",
+        "alwaysStrict": true,
+        "importHelpers": true,
+        "noEmitHelpers": true,
+        "strictNullChecks": true,
+        "noImplicitThis": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitReturns": true,
+        "removeComments": true,
+        "allowJs": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "skipLibCheck": false
+    },
+    "include": [
+        "./src/**/*.ts"
+    ]
+}
