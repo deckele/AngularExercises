@@ -98,6 +98,10 @@ export default class Game implements GameManager {
     }
 
     public move(x: number, y: number): void {
+        if (this.isGameOver()) {
+            console.log(gameMessages.gameOver);
+            return;
+        }
         if (this.isMoveOutOfBounds(x, y)) {
             this.alertIllegalMove(gameMessages.illegalMove.outOfBounds);
         }
