@@ -17,7 +17,10 @@
         "removeComments": true,
         "allowJs": true,
         "suppressImplicitAnyIndexErrors": true,
-        "skipLibCheck": false
+        "skipLibCheck": false,
+        "types": [
+            "node"
+         ]
     },
     "include": [
         "./src/**/*.ts"

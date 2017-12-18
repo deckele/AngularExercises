@@ -11,11 +11,10 @@
   "author": "Emanuel",
   "license": "ISC",
   "dependencies": {
-    "lodash": "^4.17.4",
     "tslib": "^1.8.1"
   },
   "devDependencies": {
-    "@types/lodash": "^4.14.88",
+    "@types/node": "^8.5.1",
     "typescript": "^2.6.2"
   }
 }
